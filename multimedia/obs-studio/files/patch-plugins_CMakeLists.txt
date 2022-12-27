@@ -1,0 +1,15 @@
+--- plugins/CMakeLists.txt.orig	2022-11-05 18:07:13 UTC
++++ plugins/CMakeLists.txt
+@@ -67,7 +67,6 @@ elseif(OS_FREEBSD)
+   add_subdirectory(linux-pulseaudio)
+   add_subdirectory(linux-v4l2)
+   add_subdirectory(linux-jack)
+-  add_subdirectory(linux-alsa)
+   add_subdirectory(vlc-video)
+   add_subdirectory(oss-audio)
+   add_subdirectory(sndio)
+@@ -97,4 +96,3 @@ add_subdirectory(text-freetype2)
+ add_subdirectory(obs-transitions)
+ add_subdirectory(rtmp-services)
+ add_subdirectory(text-freetype2)
+-add_subdirectory(aja)
